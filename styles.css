@@ -189,7 +189,7 @@ thead th {
   background-color: #333;
   color: #fff;
   text-align: left;
-  border: 1px solid #fff; /* Белые границы для темных ячеек */
+  border: 1px solid #fff; 
 }
 
 .package {
@@ -203,7 +203,7 @@ tbody td {
   color: #000;
   text-align: center;
   box-sizing: border-box;
-  border: 1px solid #000; /* Черные границы для светлых ячеек */
+  border: 1px solid #000; 
 }
 
 .yellow{
@@ -278,4 +278,18 @@ tbody td {
 .dropdown-menu-right {
   right: 0;
   left: auto;
+}
+
+.contacts{
+  height: 100px;
+  background-image:url('assets/back-tr.jpg');
+}
+
+.media{
+  background-image:url('assets/back-tr.jpg');
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
