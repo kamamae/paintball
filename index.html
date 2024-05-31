@@ -5,13 +5,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Пейнтбол</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="main">
         <div class="container">
+          <nav class="menu">
+            <img src="assets/logo1.png" height="45px" />
+            <a href="https://paintball-club.netlify.app/">ГЛАВНАЯ</a>
+            <a href="#about-us">О НАС</a>
+            <a href="#location">ИГРОВЫЕ ПЛОЩАДКИ</a>
+            <a href="#price">ЦЕНЫ</a>
+            <a href="#reservation">БРОНИРОВАНИЕ</a>
+            <a href="#map_816025401">КОНТАКТЫ</a>
+          </nav>
             <h1 class="yellow-title">ПЕЙНТБОЛ</h1>
             <div class="header-image">
                 <div>
@@ -28,10 +38,9 @@
                 </div>    
             </div>
         </div>
-
     </div>
-    <div class="container">
-        <h1>ПЕЙНТБОЛ В Г.Москва В ПОМЕЩЕНИИ И НА УЛИЦЕ<br> ДЛЯ ВЗРОСЛЫХ И ДЕТЕЙ</h1>
+    !--<div class="container">
+        <h1 id="about-us">ПЕЙНТБОЛ В Г.Москва В ПОМЕЩЕНИИ И НА УЛИЦЕ<br> ДЛЯ ВЗРОСЛЫХ И ДЕТЕЙ</h1>
         <div class="about-us">
           <img class="about-us-img" src="assets/about-us.jpg" alt="About Us">
           <div class="about-us-text">
@@ -85,7 +94,7 @@
     </div>
     <div class="geolocation">
         <div class="container">
-            <h1>Расположение нашей игровой площадки</h1>
+            <h1 id="location">Расположение наших игровых площадок</h1>
             <div class="location">
             <div class="flex">
                 <div class="loca-foto">
@@ -150,7 +159,7 @@
     </div>
     <div class="price">
         <div class="container">
-            <h1>ТАРИФЫ И ЦЕНЫ НА ИГРУ</h1>
+            <h1 id="price">ТАРИФЫ И ЦЕНЫ НА ИГРУ</h1>
         <table>
             <thead>
               <tr>
@@ -259,7 +268,7 @@
     </div>
     <div class="geolocation">
         <div class="container">
-            <h1>ЗАБРОНИРОВАТЬ ИГРУ</h1>
+            <h1 id="reservation">ЗАБРОНИРОВАТЬ ИГРУ</h1>
             <form class="form-container">
                 <div class="form-group">
                   <label for="name">ФИО:</label>
@@ -302,6 +311,10 @@
         </div>
         <div>
           <img src="assets/wapp.png"/>
+        </div>
+        <div style="display: flex; margin-left: 100px">
+          <img src="assets/free-icon-phone-call-5585836.png" width="50px" height="50px" />
+          <p style="color: white; margin-left: 10px"><b>(735-453-22)</b></p>
         </div>
       </div>
   </body>
